@@ -64,7 +64,7 @@
 
 .main-title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -81,7 +81,7 @@
     border-radius: 8px;
     margin-top: 5px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 16px;
 }
 
@@ -106,7 +106,7 @@ a {
 
 .showcase-top-text {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAF8;
     text-align: center;
 }
@@ -163,7 +163,7 @@ a {
 
 .description-text-2 {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1F2937;
     text-align: end;
     color:#F9FAF8
@@ -193,7 +193,7 @@ a {
 
 .signup-text-1 {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
