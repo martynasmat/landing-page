@@ -1,7 +1,7 @@
 .header {
     display: flex;
     height: 70px;
-    background-color: #1F2937;
+    background-color: #2E151B;
     align-content: center;
     justify-content: center;
 }
@@ -30,13 +30,19 @@
     text-align: center;
 }
 
+.top-section-wrap {
+    background-color: #2F4454;
+}
+
 .top-section {
     height: 450px;
-    background-color: #1F2937;
+    background-color: #2E151B;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 
 .top-section-content {
@@ -70,8 +76,8 @@
 .signup-button {
     width: 130px;
     height: 45px;
-    background-color: #3882F6;
-    border: 8px solid #3882F6;
+    background-color: #DA7B93;
+    border: 2px solid #DA7B93;
     border-radius: 8px;
     margin-top: 5px;
     color: #F9FAF8;
@@ -92,7 +98,7 @@ a {
 
 .showcase {
     height: 450px;
-    background-color: #F9FAF8;
+    background-color: #2F4454;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -101,7 +107,7 @@ a {
 .showcase-top-text {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #F9FAF8;
     text-align: center;
 }
 
@@ -121,7 +127,6 @@ a {
 .showcase-photo {
     width: 200px;
     height: 200px;
-    border: 4px solid #3882F6;
     border-radius: 20%;
     object-fit: cover;
 }
@@ -130,11 +135,12 @@ a {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10px;
+    color: #F9FAF8;
 }
 
 .description {
-    height: 500px;
-    background-color: #E5E7EB;
+    height: 400px;
+    background-color: #376E6F;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -149,9 +155,10 @@ a {
 }
 
 .description-text-1 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: lighter;
     justify-self: flex-end;
+    color:#F9FAF8
 }
 
 .description-text-2 {
@@ -159,11 +166,12 @@ a {
     font-weight: bolder;
     color: #1F2937;
     text-align: end;
+    color:#F9FAF8
 }
 
 .signup {
     height: 300px;
-    background-color: #F9FAF8;
+    background-color: #2F4454;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +180,7 @@ a {
 .signup-box {
     height: 150px;
     width: 60%;
-    background-color: #3882F6;
+    background-color: #2E151B;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
@@ -180,7 +188,7 @@ a {
 }
 
 .signup-button.bottom {
-    border: 3px solid #F9FAF8;
+    border: 2px solid #DA7B93;
 }
 
 .signup-text-1 {
@@ -196,7 +204,7 @@ a {
 
 .footer {
     height: 100px;
-    background-color: #1F2937;
+    background-color: #2E151B;
     display: flex;
     justify-content: center;
     align-items: center;
